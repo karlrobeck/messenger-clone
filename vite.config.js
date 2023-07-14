@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => {
   }
 
   if (command !== 'serve') {
-    config.base = '/sample-landing-page/'
+    config.base = '/messenger-clone/'
   }
 
   return config
